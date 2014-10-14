@@ -43,6 +43,7 @@ install elixir                             # elixir
 install julia                              # julia
 install opal                               # ocaml
 install r                                  # R
+install rust                               # rust
 
 install homebrew/versions/lua52
 
