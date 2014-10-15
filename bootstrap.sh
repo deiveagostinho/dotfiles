@@ -64,6 +64,10 @@ brew cask install divvy 2> /dev/null
 brew cask install dashlane 2> /dev/null
 brew cask install transmission 2> /dev/null
 brew cask install vlc 2> /dev/null
+brew cask install evernote 2> /dev/null
+brew cask install skitch 2> /dev/null
+brew cask install rdio 2> /dev/null
+brew cask install alfred 2> /dev/null
 
 # quick look
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
