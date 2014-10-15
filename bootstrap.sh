@@ -60,7 +60,7 @@ brew cask install vagrant 2> /dev/null
 brew cask install caffeine 2> /dev/null
 brew cask install vlc 2> /dev/null
 brew cask install zipeg 2> /dev/null
-brew cask install divvy 2> /dev/null
+brew cask install shiftit 2> /dev/null
 brew cask install dashlane 2> /dev/null
 brew cask install transmission 2> /dev/null
 brew cask install vlc 2> /dev/null
