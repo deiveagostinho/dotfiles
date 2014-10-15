@@ -15,7 +15,7 @@ brew install bash-completion
 brew install wget --enable-iri
 
 # macos x utils
-brew install vim --override-system-vi
+brew install macvim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
 
@@ -28,17 +28,21 @@ brew tap caskroom/fonts                         # fonts
 brew tap caskroom/versions
 
 # langs
-brew install node                               # js/node
-brew install python                             # python
-brew install sbt                                # scala
-brew install clojure                            # clojure
-brew install clojurescript                      # clojurescript
-brew install elixir                             # elixir
-brew install julia                              # julia
-brew install opal                               # ocaml
-brew install r                                  # R
-brew install rust                               # rust
-\curl -sSL https://get.rvm.io | bash -s stable  # ruby
+brew install node                                           # js/node
+brew install python                                         # python
+brew install sbt                                            # scala
+brew install clojure                                        # clojure
+brew install clojurescript                                  # clojurescript
+brew install elixir                                         # elixir
+brew install julia                                          # julia
+brew install opal                                           # ocaml
+brew install r                                              # R
+brew install rust                                           # rust
+brew cask install haskell-platform 2> /dev/null             # haskell
+brew cask install smlnj 2> /dev/null                        # SML
+brew cask install racket 2> /dev/null                       # racket
+brew cask install elm-platform 2> /dev/null                 # elm
+\curl -sSL https://get.rvm.io | bash -s stable              # ruby
 
 # remove outdated versions from the cellar
 brew cleanup
@@ -74,12 +78,6 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 # fonts
 brew cask install font-source-code-pro 2> /dev/null
-
-# langs
-brew cask install haskell-platform 2> /dev/null             # haskell
-brew cask install smlnj 2> /dev/null                        # SML
-brew cask install racket 2> /dev/null                       # racket
-brew cask install elm-platform 2> /dev/null                 # elm
 
 # add neobundle to vim
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
