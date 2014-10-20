@@ -88,7 +88,7 @@ npm install -g gulp
 npm install -g browserify
 npm install -g jade
 npm install -g stylus
-npm install -g lessc
+npm install -g less
 npm install -g fuck-you
 gem install compass
 
@@ -99,3 +99,6 @@ ln -s .bash_prompt ~/.bash_prompt
 ln -s .osx ~/.osx
 ln -s .gitconfig ~/.gitconfig
 ln -s .gitignore ~/.gitignore
+
+# add cask to alfred's scope
+brew cask alfred link
